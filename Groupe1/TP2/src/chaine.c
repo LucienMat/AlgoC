@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    char a, b;
-    
+    int d;
+
 
 
     return 0;
