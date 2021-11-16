@@ -41,7 +41,7 @@ Il y a cinq tâches dans ce projet.
   - Machine virtuelle (VirtualBox) + Ubuntu
 - Compilateur: gcc
 - Logiciels: gnuplot
-  - Installation: sudo apt install gnuplot
+  - Installation: sudo apt install gnuplot gnuplot-x11
 
 ## Tâche 1.
 
@@ -210,7 +210,10 @@ Nous avons utilisé les messages très simples entre client et serveur
 
 par exemple
 
-`              calcule: + 23 45              couleurs: 10, #0effeee,...             `
+```
+              calcule: + 23 45              
+              couleurs: 10, #0effeee,...
+```
 
 Sans utiliser les bibliothèques externes, modifiez le code client.c et
 serveur.c et ajoutez de nouvelles fonctions pour travailler avec le
